@@ -19,20 +19,20 @@ function App() {
   return (
     <div className="App">  
       <div ><Header/></div>  {/* Boşluk eklendi */}
-      <div ><Headerr/></div> {/* Boşluk eklendi */}
-      <div ><Headerrr/></div> {/* Boşluk eklendi */}
-      <div ><Headerrrr/></div> {/* Boşluk eklendi */}
-      <div ><Headerrrrr/></div> {/* Boşluk eklendi */}
-      <div ><Koko/></div> {/* Boşluk eklendi */}
-      <div ><Kokoo/></div> {/* Boşluk eklendi */}
-      <div ><Kokooo/></div> {/* Boşluk eklendi */}
-      <div ><Kokoooo/></div> {/* Boşluk eklendi */}
-      <div ><Kokooooo/></div> {/* Boşluk eklendi */}
-      <div ><Leyla/></div> {/* Boşluk eklendi */}
-      <div ><Leylaa/></div> {/* Boşluk eklendi */}
-      <div ><Leylaaa/></div> {/* Boşluk eklendi */}
-      <div ><Leylaaaa/></div> {/* Boşluk eklendi */}
-      <div ><Leylaaaaa/></div> {/* Boşluk eklendi */}
+      <div ><Headerr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Headerrr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Headerrrr/><br/><br/> </div> {/* Boşluk eklendi */}
+      <div ><Headerrrrr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Koko/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Kokoo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Kokooo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Kokoooo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Kokooooo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Leyla/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Leylaa/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Leylaaa/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Leylaaaa/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Leylaaaaa/><br/><br/></div> {/* Boşluk eklendi */}
     </div>
   );
 }
