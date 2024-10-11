@@ -1,6 +1,5 @@
 import React from 'react';
 import founderImage from '../assets/images/kadinremove.png'; // Kurucu resmi import edildi
-
 import logo from '../assets/images/logo.png'; // Logo dosyasını da import ettik
 
 function App() {
@@ -17,11 +16,15 @@ function App() {
 
       {/* İçerik Metinleri */}
       <section className="px-8 text-gray-700 leading-relaxed">
-        <div className="flex">
+        <div className="flex flex-col md:flex-row items-center md:items-start">
           {/* Sol tarafa kurucu fotoğrafı yerleştirildi */}
-          <img src={founderImage} alt="Founder Zeynep" className="w-64 h-auto mr-8 mb-4 rounded-full" /> {/* Fotoğraf büyütüldü ve sola alındı */}
+          <img 
+            src={founderImage} 
+            alt="Founder Zeynep" 
+            className="w-48 md:w-64 h-auto rounded-full mb-4 md:mb-0 md:mr-8 object-cover" 
+          /> {/* Görsel responsive yapıldı ve oranları korunuyor */}
 
-          <div>
+          <div className="text-center md:text-left">
             <p className="mb-4">
               Zeynep began her career with the opening of The Ritz-Carlton, Istanbul in 2001, where she developed a deep appreciation for the luxury hospitality that fueled her later achievements in the industry.
             </p>
