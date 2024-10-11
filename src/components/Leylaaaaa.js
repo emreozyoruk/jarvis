@@ -1,5 +1,5 @@
 import React from 'react';
-import image8 from '../assets/images/8.png';  // Görsel import edildi
+import image7 from '../assets/images/7.png';  // Görsel import edildi
 
 function App() {
   return (
@@ -8,9 +8,10 @@ function App() {
       <section className="flex flex-col items-center justify-center h-screen">
         {/* Görsel */}
         <img 
-  src={image8} 
+  src={image7} 
   alt="New beginnings" 
-  className="w-full sm:w-3/4 md:w-1/4 h-auto mb-12" 
+  className="w-full h-auto max-h-[80vh]"
+  //className="w-full sm:w-3/4 md:w-1/4 h-auto mb-12" 
 /> 
         {/* Metin */}
         <h1 className="text-gray-700 text-2xl md:text-3xl font-semibold text-center px-4 mb-12">
