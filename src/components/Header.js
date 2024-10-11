@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/images/logo.png';  // Logo dosyasını ekledim
-import image11 from '../assets/images/11.jpg'; // 11.png yerine görsel için 11.jpg'yi ekledim
+import image6 from '../assets/images/6.png'; // 11.png yerine görsel için 11.jpg'yi ekledim
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <section className="flex flex-col items-center justify-center h-screen">
         {/* Mobilde %100 genişlikte, masaüstünde yatayda tam genişlik, dikeyde sınırlandırıldı */}
         <img 
-          src={image11} 
+          src={image6} 
           alt="LET THE WIND TAKE YOU" 
           className="w-full h-auto max-h-[80vh]"  // Masaüstünde tam genişlik ve maksimum 80vh boy
         /> 

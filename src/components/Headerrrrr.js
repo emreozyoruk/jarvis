@@ -1,5 +1,5 @@
 import React from 'react';
-import image33 from '../assets/images/33.png';
+import image3 from '../assets/images/3.png';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <section className="flex flex-col items-center justify-center h-screen">
         {/* Mobilde %100 genişlikte, masaüstünde yatayda tam genişlik, dikeyde sınırlandırıldı */}
         <img 
-          src={image33} 
+          src={image3} 
           alt="LET THE WIND TAKE YOU" 
           className="w-full h-auto max-h-[80vh]"  // Masaüstünde tam genişlik ve maksimum 80vh boy
         /> 
