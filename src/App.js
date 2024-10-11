@@ -14,12 +14,14 @@ import Leylaa from './components/Leylaa';
 import Leylaaa from './components/Leylaaa';
 import Leylaaaa from './components/Leylaaaa';
 import Leylaaaaa from './components/Leylaaaaa';
+import About from './components/About';
 
 function App() {
   return (
     <div className="App">  
       <div className="mb-4"><Header/> <br/> </div>  {/* Boşluk eklendi */}
       <div className="mb-4"><Headerr/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><About/><br/></div> {/* Boşluk eklendi */}
       <div className="mb-4"><Headerrr/><br/></div> {/* Boşluk eklendi */}
       <div className="mb-4"><Headerrrr/><br/></div> {/* Boşluk eklendi */}
       <div className="mb-4"><Headerrrrr/><br/></div> {/* Boşluk eklendi */}
