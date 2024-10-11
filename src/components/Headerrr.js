@@ -1,18 +1,17 @@
 import React from 'react';
-import image22 from '../assets/images/22.png'; // image22 dosyasını ekledim
+import image22 from '../assets/images/22.png'; // Görsel dosyasını ekledim
 
 function App() {
   return (
     <div className="App">
-      {/* Arka plan görseli ve yazı */}
-      <section 
-        className="relative h-screen bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: `url(${image22})` }}  // Arka plan görselini image22 yaptım
-      >
-        <div className="absolute inset-0 bg-black opacity-30"></div> {/* Opak katman */}
-        <h1 className="relative z-10 text-white text-3xl md:text-4xl italic">
-          "LET THE WIND TAKE YOU..."
-        </h1>
+      {/* Görsel ve metin */}
+      <section className="flex flex-col items-center justify-center h-screen">
+        {/* Mobilde %100 genişlikte, masaüstünde %50 genişlik */}
+        <img 
+          src={image22} 
+          alt="LET THE WIND TAKE YOU" 
+          className="w-full sm:w-3/4 md:w-1/2 h-auto"  // Mobilde %100, masaüstünde %50 genişlik
+        /> 
       </section>
     </div>
   );

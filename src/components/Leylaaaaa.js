@@ -7,8 +7,11 @@ function App() {
       {/* Ana bölüm */}
       <section className="flex flex-col items-center justify-center h-screen">
         {/* Görsel */}
-        <img src={image88} alt="New beginnings" className="w-1/4 h-auto mb-12" />  {/* Görselin genişliği %50 yapıldı */}
-
+        <img 
+  src={image88} 
+  alt="New beginnings" 
+  className="w-full sm:w-3/4 md:w-1/4 h-auto mb-12" 
+/> 
         {/* Metin */}
         <h1 className="text-gray-700 text-2xl md:text-3xl font-semibold text-center px-4 mb-12">
           WE ARE SO EXCITED TO START WORKING WITH YOU!

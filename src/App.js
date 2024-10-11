@@ -19,21 +19,21 @@ import About from './components/About';
 function App() {
   return (
     <div className="App">  
-      <div className="mb-4"><Header/> <br/> </div>  {/* Boşluk eklendi */}
-      <div className="mb-4"><Headerr/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><About/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Headerrr/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Headerrrr/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Headerrrrr/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Koko/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Kokoo/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Kokooo/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Kokoooo/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Kokooooo/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Leyla/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Leylaa/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Leylaaa/><br/></div> {/* Boşluk eklendi */}
-      <div className="mb-4"><Leylaaaa/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Header/> <br/><br/> </div>  {/* Boşluk eklendi */}
+      <div className="mb-4"><Headerr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><About/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Headerrr/><br/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Headerrrr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Headerrrrr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Koko/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Kokoo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Kokooo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Kokoooo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Kokooooo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Leyla/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Leylaa/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Leylaaa/><br/><br/></div> {/* Boşluk eklendi */}
+      <div className="mb-4"><Leylaaaa/><br/><br/></div> {/* Boşluk eklendi */}
       <div className="mb-4"><Leylaaaaa/></div> {/* Boşluk eklendi */}
     </div>
   );
