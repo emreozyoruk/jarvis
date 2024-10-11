@@ -13,10 +13,10 @@ function App() {
   className="w-full h-auto max-h-[80vh]"
   //className="w-full sm:w-3/4 md:w-1/4 h-auto mb-12" 
 /> 
-        {/* Metin */}
-        <h1 className="text-gray-700 text-2xl md:text-3xl font-semibold text-center px-4 mb-12">
-          WE ARE SO EXCITED TO START WORKING WITH YOU!
-        </h1>
+<div >
+   <br/>
+</div>
+
 
         {/* İletişim bilgileri */}
         <footer className="text-center text-gray-600 text-sm">
