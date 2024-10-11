@@ -17,7 +17,7 @@ function App() {
       </header>
 
       {/* Görsel Bölümü */}
-      <section className="flex flex-col items-center justify-center h-screen">
+      <section className="flex flex-col items-center justify-center min-h-[20vh]">
         {/* Mobilde %100 genişlikte, masaüstünde yatayda tam genişlik, dikeyde sınırlandırıldı */}
         <img 
           src={image6} 

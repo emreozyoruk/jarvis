@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       {/* Ana bölüm */}
-      <section className="flex flex-col items-center justify-center h-screen">
+      <section className="flex flex-col items-center justify-center min-h-[20vh]">
         {/* Görsel */}
         <img 
   src={image7} 
@@ -23,6 +23,7 @@ function App() {
           <p>ZEYNEP.ODEN@JARVIS-CONSULT.COM</p>
           <p>JARVIS-CONSULT.COM</p>
           <p>+971.58.580.3877</p>
+          <br/><br/>
         </footer>
       </section>
     </div>
