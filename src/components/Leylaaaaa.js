@@ -1,5 +1,5 @@
 import React from 'react';
-import image7 from '../assets/images/7.png';  // Görsel import edildi
+import image7 from '../assets/images/new7.png';  // Görsel import edildi
 
 function App() {
   return (

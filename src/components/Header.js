@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/images/goldenlogo.png'; // Logo dosyasını da import ettik
-import image6 from '../assets/images/6.png'; // 11.png yerine görsel için 11.jpg'yi ekledim
+import image6 from '../assets/images/new1.png'; // 11.png yerine görsel için 11.jpg'yi ekledim
 
 function App() {
   return (
