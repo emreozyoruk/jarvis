@@ -21,7 +21,7 @@ function App() {
           <img 
             src={founderImage} 
             alt="Founder Zeynep" 
-            className="w-48 md:w-64 h-auto rounded-full mb-4 md:mb-0 md:mr-8 object-cover" 
+            className="w-48 md:w-64 h-auto  mb-4 md:mb-0 md:mr-8 object-cover" 
           /> {/* Görsel responsive yapıldı ve oranları korunuyor */}
 
           <div className="text-center md:text-left">
