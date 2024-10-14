@@ -30,7 +30,7 @@ function App() {
       <div id='About' ><About/> <br/><br/> </div>
       <div ><Headerrr/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Headerrrr/><br/><br/> </div> {/* Boşluk eklendi */}
-      <div ><Headerrrrr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Headerrrrr/></div> {/* Boşluk eklendi */}
       <div id="Leylaa"><Services/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Koko/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Kokoo/><br/><br/></div> {/* Boşluk eklendi */}
