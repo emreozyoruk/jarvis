@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/goldenlogo.png'; // Logo dosyasını da import ettik
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="text-center py-12">
         {/* Logo alanı */}
         <div className="flex justify-center">
-          <img src={logo} alt="Logo" className="w-20 h-20 mb-4" />
+          <img src={logo} alt="Logo" className="w-40 h-40 mb-4" />
         </div>
         <h1 className="text-2xl tracking-widest text-gray-800 mb-4">PROPERTY POSITIONING</h1>
       </header>

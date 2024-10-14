@@ -15,13 +15,18 @@ import Leylaaa from './components/Leylaaa';
 import Leylaaaa from './components/Leylaaaa';
 import Leylaaaaa from './components/Leylaaaaa';
 import About from './components/About'
+import Baslik from './components/Baslik'
+import Clients from './components/Clients';
+import Partners from './components/Partners';
+
 
 function App() {
   return (
     <div className="App">  
+      <div><Baslik/>  </div>
       <div ><Header/></div>  {/* Boşluk eklendi */}
-      <div ><Headerr/><br/><br/></div> {/* Boşluk eklendi */}
-      <div><About/> <br/><br/> </div>
+      <div id='Headerr' ><Headerr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div id='About' ><About/> <br/><br/> </div>
       <div ><Headerrr/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Headerrrr/><br/><br/> </div> {/* Boşluk eklendi */}
       <div ><Headerrrrr/><br/><br/></div> {/* Boşluk eklendi */}
@@ -31,10 +36,12 @@ function App() {
       <div ><Kokoooo/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Kokooooo/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Leyla/><br/><br/></div> {/* Boşluk eklendi */}
-      <div ><Leylaa/><br/><br/></div> {/* Boşluk eklendi */}
+      <div id="Leylaa" ><Leylaa/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Leylaaa/><br/><br/></div> {/* Boşluk eklendi */}
-      <div ><Leylaaaa/><br/><br/></div> {/* Boşluk eklendi */}
-      <div ><Leylaaaaa/><br/><br/></div> {/* Boşluk eklendi */}
+      <div ><Leylaaaa/></div> {/* Boşluk eklendi */}
+      <div id='Clients' ><Clients/></div> {/* Boşluk eklendi */}
+      <div id='Partners' ><Partners/><br/><br/><br/><br/></div> {/* Boşluk eklendi */}
+      <div id="Leylaaaaa" ><Leylaaaaa/><br/><br/></div> {/* Boşluk eklendi */}
     </div>
   );
 }

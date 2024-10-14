@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/logo.png';  // Logo dosyasını ekledim
+import logo from '../assets/images/goldenlogo.png'; // Logo dosyasını da import ettik
 import image6 from '../assets/images/6.png'; // 11.png yerine görsel için 11.jpg'yi ekledim
 
 function App() {
@@ -9,11 +9,10 @@ function App() {
       <header className="text-center py-12">
         <div className="flex justify-center">
           {/* Logo */}
-          <img src={logo} alt="Logo" className="w-20 h-20" />
+          <img src={logo} alt="Logo" className="w-40 h-40" />
         </div>
         <h1 className="text-2xl font-semibold mt-4">JARVIS CONSULTANCY</h1>
         <p className="text-sm tracking-wide text-gray-600">LUXURY HOSPITALITY | CONCEPT DEVELOPMENT</p>
-        <p className="text-lg mt-4 text-gray-500">Zeynep Öden Ağagil</p>
       </header>
 
       {/* Görsel Bölümü */}
