@@ -9,7 +9,7 @@ function App() {
       <header className="text-center py-12">
         {/* Logo alanı */}
         <div className="flex justify-center">
-          <img src={logo} alt="Logo" className="w-40 h-40 mb-4" />
+          <img src={logo} alt="Logo" className="w-60 h-60 mb-4" />
         </div>
         <h1 className="text-2xl tracking-widest text-gray-800 mb-4">MEET OUR FOUNDER</h1>
       </header>
@@ -45,11 +45,7 @@ function App() {
       </section>
 
       {/* İletişim Bilgileri */}
-      <section className="text-center py-12">
-        <p className="text-gray-600 mb-1">ZEYNEP.ODEN@JARVIS-CONSULT.COM</p>
-        <p className="text-gray-600 mb-1">JARVIS-CONSULT.COM</p>
-        <p className="text-gray-600">+971.58.580.3877</p>
-      </section>
+ 
     </div>
   );
 }

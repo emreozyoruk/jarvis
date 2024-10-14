@@ -9,7 +9,7 @@ function App() {
       <header className="text-center py-12">
         <div className="flex justify-center">
           {/* Logo */}
-          <img src={logo} alt="Logo" className="w-40 h-40" />
+          <img src={logo} alt="Logo" className="w-60 h-60" />
         </div>
         <h1 className="text-2xl font-semibold mt-4">JARVIS CONSULTANCY</h1>
         <p className="text-sm tracking-wide text-gray-600">LUXURY HOSPITALITY | CONCEPT DEVELOPMENT</p>
@@ -27,7 +27,7 @@ function App() {
 
       {/* Footer Bölümü */}
       <footer className="text-center py-8">
-        <p className="text-sm tracking-wide">JARVIS-CONSULT.COM</p>
+     
         <p className="text-xs text-gray-600 mt-2">DUBAI - ISTANBUL</p>
       </footer>
     </div>

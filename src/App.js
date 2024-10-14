@@ -18,6 +18,7 @@ import About from './components/About'
 import Baslik from './components/Baslik'
 import Clients from './components/Clients';
 import Partners from './components/Partners';
+import Services from './components/Services';
 
 
 function App() {
@@ -30,16 +31,17 @@ function App() {
       <div ><Headerrr/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Headerrrr/><br/><br/> </div> {/* Boşluk eklendi */}
       <div ><Headerrrrr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div id="Leylaa"><Services/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Koko/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Kokoo/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Kokooo/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Kokoooo/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Kokooooo/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Leyla/><br/><br/></div> {/* Boşluk eklendi */}
-      <div id="Leylaa" ><Leylaa/><br/><br/></div> {/* Boşluk eklendi */}
+      <div  ><Leylaa/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Leylaaa/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Leylaaaa/></div> {/* Boşluk eklendi */}
-      <div id='Clients' ><Clients/></div> {/* Boşluk eklendi */}
+      <div id='Clients' ><Clients/> <hr/> </div> {/* Boşluk eklendi */}
       <div id='Partners' ><Partners/><br/><br/><br/><br/></div> {/* Boşluk eklendi */}
       <div id="Leylaaaaa" ><Leylaaaaa/><br/><br/></div> {/* Boşluk eklendi */}
     </div>

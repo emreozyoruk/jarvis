@@ -17,7 +17,7 @@ function Clients() {
       <header className="text-center py-12">
         <div className="flex justify-center">
           {/* Logo */}
-          <img src={logo} alt="Logo" className="w-40 h-40" />
+          <img src={logo} alt="Logo" className="w-60 h-60" />
         </div>
       </header>
 

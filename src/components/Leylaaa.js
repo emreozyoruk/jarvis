@@ -1,5 +1,5 @@
 import React from 'react';
-import image8 from '../assets/images/new8.png';
+import image8 from '../assets/images/new7.png';
 
 function App() {
   return (

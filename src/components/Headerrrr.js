@@ -8,9 +8,9 @@ function App() {
       <header className="text-center py-12">
         {/* Logo alanı */}
         <div className="flex justify-center">
-          <img src={logo} alt="Logo" className="w-40 h-40 mb-4" />
+          <img src={logo} alt="Logo" className="w-60 h-60 mb-4" />
         </div>
-        <h1 className="text-2xl tracking-widest text-gray-800 mb-4">PROPERTY POSITIONING</h1>
+        <h1 className="text-2xl tracking-widest text-gray-800 mb-4">SOLUTION PARTNERS</h1>
       </header>
 
       {/* İçerik Metinleri */}
