@@ -10,7 +10,11 @@ function Baslik() {
       <div className="container mx-auto flex justify-between items-center py-3 px-8">
         {/* Logo Bölümü */}
         <div className="flex items-center">
-          <img src={logo} alt="Logo" className="w-60 h-25" /> {/* Logo boyutu */}
+          <img
+            src={logo}
+            alt="Logo"
+            className="w-40 h-20 sm:w-48 sm:h-24 md:w-60 md:h-25" // Mobil, tablet ve masaüstü için boyutlar
+          /> 
         </div>
 
         {/* Hamburger Menü Butonu (Mobil için) */}

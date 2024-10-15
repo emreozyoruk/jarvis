@@ -19,11 +19,11 @@ function Services() {
       </div>
 
       {/* Hizmetler Tablosu */}
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 px-8 text-left">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-8 text-left">
         {/* Üstteki 3 kolon */}
         <div>
           <h2 id="property-positioning" className="text-lg font-semibold mb-4 text-center">
-            <Link to="Property" smooth={true} duration={800} className='cursor-pointer'>
+            <Link to="Property" smooth={true} duration={800} className="cursor-pointer">
               PROPERTY POSITIONING
             </Link>
           </h2>
@@ -42,7 +42,7 @@ function Services() {
 
         <div>
           <h2 id="brand-development" className="text-lg font-semibold mb-4 text-center">
-            <Link to="Brand" smooth={true} duration={800} className='cursor-pointer'>
+            <Link to="Brand" smooth={true} duration={800} className="cursor-pointer">
               BRAND DEVELOPMENT
             </Link>
           </h2>
@@ -58,7 +58,7 @@ function Services() {
 
         <div>
           <h2 id="concept-development" className="text-lg font-semibold mb-4 text-center">
-            <Link to="Concept" smooth={true} duration={800} className='cursor-pointer'>
+            <Link to="Concept" smooth={true} duration={800} className="cursor-pointer">
               CONCEPT DEVELOPMENT
             </Link>
           </h2>
@@ -73,10 +73,10 @@ function Services() {
         </div>
 
         {/* Alttaki 2 kolon */}
-        <div className="col-span-3 flex justify-around space-x-8 mt-8">
-          <div className="pl-8">
+        <div className="md:col-span-3 flex flex-col md:flex-row justify-around space-x-0 md:space-x-8 mt-8">
+          <div className="md:pl-8 mb-8 md:mb-0">
             <h2 id="hospitality-management" className="text-lg font-semibold mb-4 text-center">
-              <Link to="Hosp" smooth={true} duration={800} className='cursor-pointer'>
+              <Link to="Hosp" smooth={true} duration={800} className="cursor-pointer">
                 HOSPITALITY MANAGEMENT CONSULTANCY
               </Link>
             </h2>
@@ -92,9 +92,9 @@ function Services() {
             </ul>
           </div>
 
-          <div className="pl-8">
+          <div className="md:pl-8">
             <h2 id="sales-marketing" className="text-lg font-semibold mb-4 text-center">
-              <Link to="Sales" smooth={true} duration={800} className='cursor-pointer'>
+              <Link to="Sales" smooth={true} duration={800} className="cursor-pointer">
                 SALES & MARKETING REPRESENTATION
               </Link>
             </h2>
