@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll'; // react-scroll'den Link'i import ettik
-import logo from '../assets/images/navbarlogo.png'; // Logonuzun dosya yolunu buraya ekledim
+import logo from '../assets/images/navlogo.png'; // Logonuzun dosya yolunu buraya ekledim
 
 function Baslik() {
   const [isOpen, setIsOpen] = useState(false); // Menü açık mı kapalı mı durumunu kontrol eden state
@@ -10,7 +10,7 @@ function Baslik() {
       <div className="container mx-auto flex justify-between items-center py-3 px-8">
         {/* Logo Bölümü */}
         <div className="flex items-center">
-          <img src={logo} alt="Logo" className="w-12 h-12" /> {/* Logo boyutu */}
+          <img src={logo} alt="Logo" className="w-60 h-25" /> {/* Logo boyutu */}
         </div>
 
         {/* Hamburger Menü Butonu (Mobil için) */}
