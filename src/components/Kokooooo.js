@@ -1,39 +1,42 @@
 import React from 'react';
+
 function App() {
   return (
     <div className="App">
-      {/* Logo ve Başlık */}
+      {/* Başlık */}
       <header className="text-center py-12">
-        {/* Logo alanı */}
-        <div className="flex justify-center">
-        </div>
-        <h1 className="text-2xl tracking-widest text-gray-800 mb-4">
-          OPERATIONAL GUIDELINES DEVELOPMENT
+        <h1 className="text-2xl tracking-widest text-gray-800 mb-4 font-semibold">
+          PROPERTY POSITIONING
         </h1>
+        <p className="italic text-lg mb-6">
+          'Positioning is not what you do to a product; it is what you do to the mind of a prospect.'
+        </p>
       </header>
 
       {/* İçerik Metinleri */}
       <section className="text-center px-8 text-gray-700 leading-relaxed">
-        <h2 className="text-lg font-bold mb-6">BRAND STANDARD OPERATIONAL GUIDELINES (SOP'S)</h2>
+        <h2 className="text-lg font-bold mb-6">POSITIONING STATEMENT</h2>
+        <p className="mb-8">
+          Form of a short, illustrated document to brief agencies, the hotel team & solution partners
+        </p>
         <ul className="list-none mb-8">
-          <li>Administrative</li>
-          <li>Rooms - Front Office - Housekeeping - Reservations - PBX</li>
-          <li>Finance - IT - Procurement</li>
-          <li>Talent & Culture</li>
-          <li>Sales & Marketing, Crisis Communication, Revenue</li>
-          <li>Food & Beverage, Culinary, Banquet</li>
-          <li>Spa, Wellness</li>
-          <li>Engineering</li>
-          <li>Security</li>
+          <li>Hotel design brief</li>
+          <li>Target guest profiles (primary & secondary)</li>
+          <li>Cultural highlights</li>
+          <li>Market analysis</li>
+          <li>Source market analysis</li>
         </ul>
 
-        <h2 className="text-lg font-bold mb-6">PRE-OPENING PLAN / CRITICAL PATH</h2>
+        <h2 className="text-lg font-bold mb-6">KEY MESSAGE HOUSE & GUEST EXPERIENCES</h2>
         <p className="mb-4">
-          development of brand level pre-opening plan*
+          A tagline that needs to encapsulate the hotel's DNA and a short storytelling, summarizing the different facets of the experience in a compelling way
         </p>
-        <p className="text-sm italic text-gray-500">
-          *property level coordination and adaptation to be done by department heads
-        </p>
+        <ul className="list-none mb-8">
+          <li>The key message house (property tagline)</li>
+          <li>Main tangible assets to bring positioning to life</li>
+          <li>Meaningful guest experiences crafted by masters</li>
+          <li>Emotional wellbeing experiences</li>
+        </ul>
       </section>
     </div>
   );

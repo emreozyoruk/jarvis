@@ -1,18 +1,20 @@
 import React from 'react';
-import ritzCarlton from '../assets/images/firma1.png'; // Görsellerini ilgili yollarla değiştir
-import ciragan from '../assets/images/firma2.png'; // Görsellerini ilgili yollarla değiştir
-import rafflesIstanbul from '../assets/images/firma3.png'; // Görsellerini ilgili yollarla değiştir
-import rafflesDubai from '../assets/images/firma4.png'; // Görsellerini ilgili yollarla değiştir
-import sofitel from '../assets/images/firma5.png'; // Görsellerini ilgili yollarla değiştir
-import rafflesBahrain from '../assets/images/firma6.png'; // Görsellerini ilgili yollarla değiştir
-import kempinski from '../assets/images/firma7.png'; // Görsellerini ilgili yollarla değiştir
-import accor from '../assets/images/firma8.png'; // Görsellerini ilgili yollarla değiştir
+import ritzCarlton from '../assets/images/firma1.png'; 
+import ciragan from '../assets/images/firma2.png'; 
+import rafflesIstanbul from '../assets/images/firma3.png'; 
+import rafflesDubai from '../assets/images/firma4.png'; 
+import sofitel from '../assets/images/firma5.png'; 
+import rafflesBahrain from '../assets/images/firma6.png'; 
+import kempinski from '../assets/images/firma7.png'; 
+import accor from '../assets/images/firma8.png'; 
+import r1 from '../assets/images/r1.png';
+import r2 from '../assets/images/r2.png';
 
 
 function Clients() {
   return (
     <section className="py-12 bg-white">
-         {/* Logo ve başlık */}
+      {/* Logo ve başlık */}
       <header className="text-center py-12">
         <div className="flex justify-center">
           {/* Logo */}
@@ -48,10 +50,20 @@ function Clients() {
           <div className="flex justify-center">
             <img src={accor} alt="Accor" className="w-48 h-auto"/>
           </div>
+          {/* Son satırdaki logoları 2. ve 3. sütuna koymak için: */}
+          <div></div> {/* Boş bir div ekliyoruz */}
+          <div className="flex justify-center">
+            <img src={r1} alt="R1" className="w-48 h-auto"/>
+          </div>
+          <div className="flex justify-center">
+            <img src={r2} alt="R2" className="w-48 h-auto"/>
+          </div>
+          <div></div> {/* Boş bir div ekliyoruz */}
         </div>
       </div>
     </section>
-  );
+  
+);
 }
 
 export default Clients;
