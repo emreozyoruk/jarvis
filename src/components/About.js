@@ -1,6 +1,5 @@
 import React from 'react';
 import founderImage from '../assets/images/kadinremove.png'; // Kurucu resmi import edildi
-import logo from '../assets/images/goldenlogo.png'; // Logo dosyasını da import ettik
 
 function App() {
   return (
@@ -8,9 +7,7 @@ function App() {
       {/* Logo ve Başlık */}
       <header className="text-center py-12">
         {/* Logo alanı */}
-        <div className="flex justify-center">
-          <img src={logo} alt="Logo" className="w-60 h-60 mb-4" />
-        </div>
+        <div className="flex justify-center"></div>
         <h1 className="text-2xl tracking-widest text-gray-800 mb-4">MEET OUR FOUNDER</h1>
       </header>
 
@@ -18,13 +15,21 @@ function App() {
       <section className="px-8 text-gray-700 leading-relaxed">
         <div className="flex flex-col md:flex-row items-center md:items-start">
           {/* Sol tarafa kurucu fotoğrafı yerleştirildi */}
-          <img 
-            src={founderImage} 
-            alt="Founder Zeynep" 
-            className="w-48 md:w-64 h-auto  mb-4 md:mb-0 md:mr-8 object-cover" 
-          /> {/* Görsel responsive yapıldı ve oranları korunuyor */}
+          <div className="flex flex-col items-center">
+            <img 
+              src={founderImage} 
+              alt="Founder Zeynep" 
+              className="w-48 md:w-64 h-auto mb-4 md:mb-0 md:mr-8 object-cover" 
+            />
+            {/* Footer kısmını fotoğrafın altına yerleştirdik */}
+            <footer className="text-center py-1 mr-9 ">
+              <p className="text-lg text-gray-700 italic mb-1">Zeynep Öden Ağagil</p>
+              <p className="text-gray-500 text-sm">FOUNDER AND MANAGING DIRECTOR</p>
+            </footer>
+          </div>
 
-          <div className="text-center md:text-left">
+          {/* İçerik ile resim ve footer arasındaki boşluğu açıyoruz */}
+          <div className="text-center md:text-left mt-8 md:mt-0">
             <p className="mb-4">
               Zeynep began her career with the opening of The Ritz-Carlton, Istanbul in 2001, where she developed a deep appreciation for the luxury hospitality that fueled her later achievements in the industry.
             </p>
@@ -43,9 +48,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* İletişim Bilgileri */}
- 
     </div>
   );
 }

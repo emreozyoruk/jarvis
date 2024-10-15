@@ -28,7 +28,6 @@ function App() {
       {/* Footer Bölümü */}
       <footer className="text-center py-8">
      
-        <p className="text-xs text-gray-600 mt-2">DUBAI - ISTANBUL</p>
       </footer>
     </div>
   );

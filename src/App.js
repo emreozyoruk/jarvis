@@ -25,9 +25,9 @@ function App() {
   return (
     <div className="App">  
       <div><Baslik/>  </div>
-      <div ><Header/></div>  {/* Boşluk eklendi */}
-      <div id='Headerr' ><Headerr/><br/><br/></div> {/* Boşluk eklendi */}
-      <div id='About' ><About/> <br/><br/> </div>
+      <div id='Headerr'><Header/></div>  {/* Boşluk eklendi */}
+      <div id='About' ><Headerr/><br/><br/></div> {/* Boşluk eklendi */}
+      <div  ><About/> <br/><br/> </div>
       <div ><Headerrr/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Headerrrr/><br/><br/> </div> {/* Boşluk eklendi */}
       <div ><Headerrrrr/></div> {/* Boşluk eklendi */}

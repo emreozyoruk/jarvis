@@ -20,9 +20,23 @@ function App() {
 
         {/* İletişim bilgileri */}
         <footer className="text-center text-gray-600 text-sm">
-          <p>ZEYNEP.ODEN@JARVIS-CONSULT.COM</p>
-          <p>JARVIS-CONSULT.COM</p>
-          <p>+971.58.580.3877</p>
+        <p>
+    <a href="mailto:ZEYNEP.ODEN@JARVIS-CONSULT.COM" className="hover:underline">
+      ZEYNEP.ODEN@JARVIS-CONSULT.COM
+    </a>
+  </p>
+  <p>
+    <a href="https://www.JARVIS-CONSULT.COM" target="_blank" rel="noopener noreferrer" className="hover:underline">
+      JARVIS-CONSULT.COM
+    </a>
+  </p>
+  <p>
+    <a href="tel:+971585803877" className="hover:underline">
+      +971.58.580.3877
+    </a>
+  </p>
+          <p className="text-xs text-gray-600 mt-2">DUBAI - ISTANBUL</p>
+
           <br/><br/>
         </footer>
       </section>

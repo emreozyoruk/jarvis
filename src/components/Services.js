@@ -3,8 +3,8 @@ import logo from '../assets/images/goldenlogo.png'; // Logo dosyasını da impor
 function Services() {
   return (
     
-    <div className="py-12 bg-white text-center">
-        <header className="text-center py-12">
+    <div className="py-6 bg-white text-center">
+        <header className="text-center py-6">
         {/* Logo alanı */}
         <div className="flex justify-center">
           <img src={logo} alt="Logo" className="w-60 h-60 mb-4" />
@@ -12,7 +12,7 @@ function Services() {
        
       </header>
       {/* Başlık */}
-      <h1 className="text-lg font-light tracking-widest mb-4">SERVICES</h1>
+      <h1 className="text-2xl font-bold tracking-widest mb-4 text-gray-900">SERVICES</h1>
       <div className="flex justify-center mb-12">
         <div className="w-16 border-t border-gray-400"></div>
       </div>

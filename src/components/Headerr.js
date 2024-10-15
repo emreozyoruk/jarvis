@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/images/goldenlogo.png'; // Logo dosyasını da import ettik
 
 function App() {
   return (
@@ -8,7 +7,6 @@ function App() {
       <header className="text-center py-12">
         {/* Logo alanı */}
         <div className="flex justify-center">
-          <img src={logo} alt="Logo" className="w-60 h-60 mb-4" />
         </div>
         <h1 className="text-2xl tracking-widest text-gray-800 mb-4">WELCOME</h1>
         <hr className="w-16 mx-auto border-gray-400 mb-6" />
@@ -43,10 +41,7 @@ function App() {
       </section>
 
       {/* Footer (Zeynep Öden Ağagil İmza Bölümü) */}
-      <footer className="text-center py-12">
-        <p className="text-xl text-gray-700 italic mb-2">Zeynep Öden Ağagil</p>
-        <p className="text-gray-500">FOUNDER AND MANAGING DIRECTOR</p>
-      </footer>
+      
     </div>
   );
 }
