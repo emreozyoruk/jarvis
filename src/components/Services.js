@@ -27,7 +27,7 @@ function Services() {
               PROPERTY POSITIONING
             </Link>
           </h2>
-          <ul className="text-sm space-y-2">
+          <ul className="text-sm space-y-2 text-center">
             <li>We create a concise positioning statement to brief agencies, hotel teams, and solution partners, incorporating a hotel design brief, target guest profiles, cultural highlights, and market analysis.</li>
             <li>We then develop a key message house that captures your hotel’s DNA with a compelling tagline and storytelling, showcasing the meaningful guest experiences we craft to enhance emotional well-being.</li>
             <li>Hotel Design Brief</li>
@@ -46,7 +46,7 @@ function Services() {
               BRAND DEVELOPMENT
             </Link>
           </h2>
-          <ul className="text-sm space-y-2">
+          <ul className="text-sm space-y-2 text-center">
             <li>Our brand development process begins with crafting a comprehensive brand strategy, serving as the blueprint for how your business is perceived in the world.</li>
             <li>We define your brand purpose, develop your audience, conduct competitor research, and shape your brand voice and message, ensuring a strong foundation that translates into a compelling brand identity through visuals, messaging, and experience.</li>
             <li>Brand Strategy Document</li>
@@ -62,7 +62,7 @@ function Services() {
               CONCEPT DEVELOPMENT
             </Link>
           </h2>
-          <ul className="text-sm space-y-2">
+          <ul className="text-sm space-y-2 text-center">
             <li>We explore innovative ideas and define every detail—from public spaces and rooms to food and beverage outlets—crafting unique guest touchpoints and amenities, while collaborating with reputable international partners for architecture, interior design, and curated experiences that elevate the overall guest journey.</li>
             <li>Interior Design Mood Board</li>
             <li>Collateral Look & Feel</li>
@@ -80,7 +80,7 @@ function Services() {
                 HOSPITALITY MANAGEMENT CONSULTANCY
               </Link>
             </h2>
-            <ul className="text-sm space-y-2">
+            <ul className="text-sm space-y-2 text-center">
               <li>We provide expert hospitality management consultancy for existing properties, pre-openings, rebranding, and renovations, focusing on comprehensive commercial strategy development and detailed pre-opening plans.</li>
               <li>Our services include critical path development, robust business and marketing plans, and the creation of brand standard operational guidelines to ensure operational excellence and elevate guest experiences.</li>
               <li>Commercial Strategy Development</li>
@@ -98,7 +98,7 @@ function Services() {
                 SALES & MARKETING REPRESENTATION
               </Link>
             </h2>
-            <ul className="text-sm space-y-2">
+            <ul className="text-sm space-y-2 text-center">
               <li>We elevate your luxury hospitality brand by attracting affluent Middle Eastern travelers and generating group booking inquiries through impactful sales strategies and strong supplier relationships.</li>
               <li>Our comprehensive services include seamless reservation assistance, exclusive fam trips, tailored event planning, and representation at industry events to enhance visibility and captivate your audience.</li>
               <li>Representation of travel agencies</li>

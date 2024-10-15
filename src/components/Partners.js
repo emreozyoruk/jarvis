@@ -1,15 +1,15 @@
 import React from 'react';
 import partner1 from '../assets/images/sp1.jpg'; 
-import partner2 from '../assets/images/sp2.png';
+import partner2 from '../assets/images/g2.png';
 import partner3 from '../assets/images/sp3.png';
-import partner4 from '../assets/images/sp4.png';
+import partner4 from '../assets/images/g1.png';
 import partner5 from '../assets/images/sp5.png';
 import partner6 from '../assets/images/sp6.png';
-import partner7 from '../assets/images/sp7.png';
+import partner7 from '../assets/images/g4.png';
 import partner8 from '../assets/images/sp8.png';
 import partner9 from '../assets/images/sp9.png';
 import partner10 from '../assets/images/sp10.png';
-import partner11 from '../assets/images/sp11.png';
+import partner11 from '../assets/images/g3.png';
 
 
 
