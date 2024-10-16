@@ -111,12 +111,7 @@ function Services() {
       </div>
 
       {/* Alt Mesaj */}
-      <div className="mt-12">
-        <div className="flex justify-center mb-4">
-          <div className="w-16 border-t border-gray-400"></div>
-        </div>
-        <p className="text-sm italic">We will craft a tailored offer based on your requirements.</p>
-      </div>
+      
     </div>
   );
 }
