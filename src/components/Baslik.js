@@ -53,7 +53,7 @@ function Baslik() {
               <Link to="Leylaa" smooth={true} duration={800} onClick={() => setIsOpen(false)}>SERVICES</Link> {/* Leylaa bileşenine gidecek */}
             </li>
             <li className="hover:text-yellow-500 transition duration-300 cursor-pointer">
-              <Link to="Clients" smooth={true} duration={800} onClick={() => setIsOpen(false)}>CLIENTS</Link> {/* Clients bileşenine gidecek */}
+              <Link to="Clients" smooth={true} duration={800} onClick={() => setIsOpen(false)}>REFERENCES</Link> {/* Clients bileşenine gidecek */}
             </li>
             <li className="hover:text-yellow-500 transition duration-300 cursor-pointer">
               <Link to="Partners" smooth={true} duration={800} onClick={() => setIsOpen(false)}>PARTNERS</Link> {/* Partners bileşenine gidecek */}

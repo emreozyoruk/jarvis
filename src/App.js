@@ -30,11 +30,11 @@ function App() {
       <div ><Headerrr/><br/><br/></div> {/* Boşluk eklendi */}
       <div id="Leylaa"><Services/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Headerrrrr/></div> {/* Boşluk eklendi */}
-      <div id='Brand' ><Koko/><br/><br/></div> {/* Boşluk eklendi */}
+      <div id='Property' ><Kokooooo/><br/><br/></div> {/* Boşluk eklendi */}   
       <div ><Kokoo/><br/><br/></div> {/* Boşluk eklendi */}
-      <div id='Concept' ><Kokooo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div id='Brand' ><Koko/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Kokoooo/><br/><br/></div> {/* Boşluk eklendi */}
-      <div id='Property' ><Kokooooo/><br/><br/></div> {/* Boşluk eklendi */}
+      <div id='Concept' ><Kokooo/><br/><br/></div> {/* Boşluk eklendi */}
       <div ><Leyla/><br/><br/></div> {/* Boşluk eklendi */}
       <div id='Hosp' ><Leylaa/><br/><br/></div> {/* Boşluk eklendi */}
       <div id='Sales' ><Leylaaa/><br/><br/></div> {/* Boşluk eklendi */}

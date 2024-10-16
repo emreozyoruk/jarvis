@@ -1,5 +1,5 @@
 import React from 'react';
-import image2 from '../assets/images/new2.png'; // Görsel dosyasını ekledim
+import image2 from '../assets/images/let.png'; // Görsel dosyasını ekledim
 
 function App() {
   return (
