@@ -6,7 +6,7 @@ function App() {
       {/* Başlık */}
       <header className="text-center py-12">
         <h1 className="text-2xl tracking-widest text-gray-800 mb-4 font-semibold">CONCEPT DEVELOPMENT</h1>
-        <p className="italic text-lg mb-6">'First concept, then design'</p>
+    
       </header>
 
       {/* İçerik Metinleri */}

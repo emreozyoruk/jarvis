@@ -10,6 +10,7 @@ import partner8 from '../assets/images/sp8.png';
 import partner9 from '../assets/images/sp9.png';
 import partner10 from '../assets/images/sp10.png';
 import partner11 from '../assets/images/g3.png';
+import partner12 from '../assets/images/spp.jpeg'
 
 
 
@@ -63,6 +64,9 @@ function Partners() {
           </div>
           <div className="flex justify-center">
             <img src={partner11} alt="Partner 6" className="w-48 h-32 object-contain"/>
+          </div>
+          <div className="flex justify-center">
+            <img src={partner12} alt="Partner 6" className="w-48 h-32 object-contain"/>
           </div>
         </div>
       </div>
