@@ -7,9 +7,10 @@ function App() {
         {/* Logo alanı */}
         <div className="flex justify-center">
         </div>
-        <h1 className="text-2xl tracking-widest text-gray-800 mb-4">
-          SALES & MARKETING REPRESENTATION
-        </h1>
+        <h1 className="text-2xl tracking-widest text-gray-800 mb-4 font-bold">
+  SALES & MARKETING REPRESENTATION
+</h1>
+
       </header>
 
       {/* İçerik Metinleri */}

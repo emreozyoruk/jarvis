@@ -1,4 +1,5 @@
 import React from 'react';
+import hummingbird from '../assets/images/welcome.png'; // Kuş logosu için dosya yolunu ekledim
 
 function App() {
   return (
@@ -7,6 +8,11 @@ function App() {
       <header className="text-center py-12">
         {/* Logo alanı */}
         <div className="flex justify-center">
+          <img
+            src={hummingbird}
+            alt="Hummingbird Logo"
+            className="w-32 h-32 sm:w-48 sm:h-48 object-contain mb-4"
+          />
         </div>
         <h1 className="text-2xl tracking-widest text-gray-800 mb-4">WELCOME</h1>
         <hr className="w-16 mx-auto border-gray-400 mb-6" />
@@ -41,7 +47,6 @@ function App() {
       </section>
 
       {/* Footer (Zeynep Öden Ağagil İmza Bölümü) */}
-      
     </div>
   );
 }

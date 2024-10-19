@@ -39,9 +39,9 @@ const Testimonials = () => {
       <div className="max-w-xl mx-auto text-center">
         <div
           className="bg-white p-6 rounded-lg shadow-lg"
-          style={{ height: "250px", display: "flex", flexDirection: "column", justifyContent: "space-between" }} // Sabit yükseklik ayarlandı
+          style={{ minHeight: "250px", display: "flex", flexDirection: "column", justifyContent: "space-between" }} // Sabit yükseklik
         >
-          <p className="italic text-gray-700">
+          <p className="italic text-gray-700 text-sm md:text-base">
             "{testimonials[currentIndex].text}"
           </p>
           <div className="mt-4">
@@ -52,13 +52,13 @@ const Testimonials = () => {
         <div className="flex justify-between mt-4">
           <button
             onClick={handlePrev}
-            className="bg-yellow-500 text-white py-2 px-4 rounded-lg"
+            className="bg-[#d4af37] text-white py-2 px-4 rounded-lg transition-colors hover:bg-[#b8962e]"
           >
             Previous
           </button>
           <button
             onClick={handleNext}
-            className="bg-yellow-500 text-white py-2 px-4 rounded-lg"
+            className="bg-[#d4af37] text-white py-2 px-4 rounded-lg transition-colors hover:bg-[#b8962e]"
           >
             Next
           </button>

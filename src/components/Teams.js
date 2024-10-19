@@ -1,22 +1,22 @@
 import React from 'react';
-import founderImage1 from '../assets/images/t1.jpeg'; // İlk kişi resmi
-import founderImage2 from '../assets/images/t2.jpeg'; // İkinci kişi resmi
-import founderImage3 from '../assets/images/t3.jpeg'; // Üçüncü kişi resmi
+import founderImage1 from '../assets/images/team1.jpeg'; // İlk kişi resmi
+import founderImage2 from '../assets/images/team2.jpeg'; // İkinci kişi resmi
+import founderImage3 from '../assets/images/team3.jpeg'; // Üçüncü kişi resmi
 
 const Team = () => {
   const teamMembers = [
     {
-      name: 'Unal Uran',
+      name: 'Merve Kilic',
       position: 'Marketing & Communications Manager',
       img: founderImage1, // İlk resim
     },
     {
-      name: 'Joy Almadrones',
+      name: 'Unal Uran',
       position: 'Director of Business Development',
       img: founderImage2, // İkinci resim
     },
     {
-      name: 'Merve Kilic',
+      name: 'Joy Almadrones',
       position: 'Creative Head',
       img: founderImage3, // Üçüncü resim
     },

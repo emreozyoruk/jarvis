@@ -25,7 +25,7 @@ import Test from './components/Test'
 function App() {
   return (
     <div className="App">  
-      <div><Baslik/><br/><br/><br/><br/><br/>  </div>
+      <div><Baslik/><br/></div>
       <div id='Headerr'><Header/></div>  {/* Boşluk eklendi */}
       <div id='About' ><Headerr/><br/><br/></div> {/* Boşluk eklendi */}
       <div  ><About/> <br/><br/> </div>
