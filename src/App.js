@@ -18,7 +18,6 @@ import Baslik from './components/Baslik'
 import Clients from './components/Clients';
 import Partners from './components/Partners';
 import Services from './components/Services';
-import Teams from './components/Teams'
 import Test from './components/Test'
 
 
@@ -43,7 +42,6 @@ function App() {
       <div ><Leylaaaa/></div> {/* Boşluk eklendi */}
       <div id='Clients' ><Clients/> <hr/> </div> {/* Boşluk eklendi */}
       <div id='Partners' ><Partners/><br/><br/><br/><br/></div> {/* Boşluk eklendi */}
-      <div id='Teams' ><Teams/><br/><br/><br/><br/></div> {/* Boşluk eklendi */}
       <div id='Test' ><Test/><br/><br/><br/><br/></div> {/* Boşluk eklendi */}
       <div id="Leylaaaaa" ><Leylaaaaa/><br/><br/></div> {/* Boşluk eklendi */}
     </div>
